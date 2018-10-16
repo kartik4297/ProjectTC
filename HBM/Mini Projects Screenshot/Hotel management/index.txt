@@ -1,0 +1,78 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link href="/Spring_Hotel/style.css" rel="stylesheet" />
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Login</title>
+</head>
+<body>
+
+<center>
+	<header style="font-family:Monotype Corsiva">
+		<I>INDOOR & OUTDOOR LUXURY</I>
+	</header>
+</center><br><br>
+	
+	
+	
+	<br/>
+	<center>
+	
+	<fieldset>
+	<legend>Login</legend>
+	<table>
+		<form id="user" action="processLogin.html" method="post">
+			<tr>
+				<td>User name</td>
+				<td><input id="userName" name="userName" class="textbox" type="text" value=""/></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input id="password" name="password" class="textbox" type="password" value=""/></td>
+			</tr>
+			<tr>
+				<td>Role</td>
+				<td><select id="role" name="role" class="textbox"><option value="admin">admin</option></select></td>
+			</tr>
+			<tr>
+				<td align="center" colspan="2"><input  type="submit" value="Login" class="submitButton"></td>
+			</tr>
+		</form>
+		
+	</table>
+	</fieldset></center>
+	
+
+<br/>
+
+<div style="height:450px;">
+<marquee>
+     <img src="/Spring_Hotel/homepage.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/img3.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/room1.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/room2.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/room3.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/room4.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/room5.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/room6.jpg" height="200px" width="250"/>
+     <img src="/Spring_Hotel/room7.jpg" height="200px" width="250"/>
+</marquee>
+	<h5><center>Facilities available at the Hotels</center></h5>
+			<marquee behavior="scroll" direction="right" >
+			
+				<p><pre>Swimming pool       Gym        ATM         Playing courts       Casino      Restaurants</pre>
+				
+				</p>
+
+				
+			</marquee>
+			<br/>
+			<span id="offer" class="blinking"><center>*Exciting Offer*</center></span>
+		
+<pre align="center">Copyrights @Reserved</pre>
+</div>
+</body>
+</html>
